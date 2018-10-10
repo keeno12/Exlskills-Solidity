@@ -100,6 +100,6 @@ The special function `Coin` is the constructor which is run during creation of t
 
 Finally, the functions that will actually end up with the contract and can be called by users and contracts alike are `mint` and `send`. If `mint` is called by anyone except the account that created the contract, nothing will happen. On the other hand, `send` can be used by anyone (who already has some of these coins) to send coins to anyone else. Note that if you use this contract to send coins to an address, you will not see anything when you look at that address on a blockchain explorer, because the fact that you sent coins and the changed balances are only stored in the data storage of this particular coin contract. By the use of events it is relatively easy to create a “blockchain explorer” that tracks transactions and balances of your new coin.
 
-####Congratulations you have just completed lecture one and learned the basic solidity contract.
+#### Congratulations you have just completed lecture one and learned the basic solidity contract.
 
-####Continue on to lecture 2 to learn about Blockchain basics.
+#### Continue on to lecture 2 to learn about Blockchain basics.
